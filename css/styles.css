@@ -1,0 +1,102 @@
+
+
+
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      height: 100vh;
+    }
+
+    #header{
+      font-size: 50px;
+      font-family: 'Lobster', cursive;
+      margin: 0;
+  padding: 0;
+    }
+
+
+    #red {
+      background-color: red;
+    }
+    #white{
+      text-align:center;
+    }
+
+
+    #green{
+      background-color: green;
+    }
+
+    .row {
+      padding-top: 20px;
+      display: flex;
+    }
+
+
+    #pizza {
+      flex: 33.33%;
+      margin: 10px;
+    }
+
+    #pizza:hover {
+      display:inline-block;
+      outline: 15px dashed blue;
+      outline-offset: -10px;
+    }
+
+    #pasta {
+      flex: 33.33%;
+      margin: 10px;
+    }
+
+    #pasta:hover {
+      display:inline-block;
+      outline: 15px dashed blue;
+      outline-offset: -10px;
+    }
+
+    #pasta:active {
+      display:inline-block;
+      outline: 15px dashed blue;
+      outline-offset: -10px;
+    }
+
+    #fandc {
+      flex: 33.33%;
+      margin: 10px;
+
+    }
+
+    #fandc:hover {
+      display:inline-block;
+      outline: 15px dashed blue;
+      outline-offset: -10px;
+    }
+
+    .score{
+      display: flex;
+    }
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+
+    #foodChoice{
+     font-family: 'Zilla Slab', serif;
+     font-weight: bold;
+     font-size: 2em;
+    }
+
+    #rule{
+      font-family: 'Zilla Slab', serif;
+    }
+
+    #last{
+      color: white;
+      font-family: 'Zilla Slab', serif;
+      background-color: red;
+    }
+
+    
+

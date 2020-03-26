@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset="UTF-8">
+  <title>PizzaPastaFish&Chips</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+  <div class="container">
+    <div id='green'></div>
+
+    <div id='white'>
+      <h2 id = 'header'>Pizza Pasta Fish&Chips</h2>
+
+      
+
+      <div class="row" id='toDelete'>
+        <div id='pizza' onClick='playRound(this.id)'>
+          <img src="/Users/lorenzodalberto/Documents/Odin-Project/pizza-pasta-fishchips/imgs/pizza.jpg" alt="Pizza" style="width:100%">
+        </div>
+        <div  id='pasta' onClick='playRound(this.id)'>
+          <img src="/Users/lorenzodalberto/Documents/Odin-Project/pizza-pasta-fishchips/imgs/pasta.jpg" alt="Pasta" style="width:100%">
+        </div>
+        <div id='fandc' onClick='playRound(this.id)'>
+          <img src="/Users/lorenzodalberto/Documents/Odin-Project/pizza-pasta-fishchips/imgs/fandc.jpg" alt="Fish&Chips" style="width:100%">
+        </div>
+
+
+      </div>
+
+
+      <h4 id='foodChoice'>Select your dish!</h4>
+
+      <p id='rule'>Top scorer after 5 rounds is winner </p>
+
+      <div id='last'>
+        <div class="score" id='score'>
+          <div class="column">human</div>
+          <div class="column">machine</div>
+          <div class="column">round</div>
+        </div>
+        <div class="score">
+          <div class="column" id='humanScore'>0</div>
+          <div class="column" id='machineScore'>0</div>
+          <div class="column" id='round'>0</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id='red'></div>
+
+  </div>
+  <script type="text/javascript" src="javaScript/javaScript.js"></script>
+</body>
+</html>
